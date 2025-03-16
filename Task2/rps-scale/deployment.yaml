@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scaletest-deploy
+  labels:
+    app: scaletestapp
+    prometheus-monitored: "true"
+spec:
+  selector:
+    matchLabels:
+      app: scaletestapp
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: scaletestapp
+        prometheus-monitored: "true"
+    spec:
+      containers:
+        - name: scaletestapp
+          image: shestera/scaletestapp
+          ports:
+            - containerPort: 8080
+          resources:
+            limits:
+              memory: "30Mi"
+            requests:
+              memory: "20Mi"

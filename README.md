@@ -1,8 +1,8 @@
 # Решения
 
-- [Проектирование технологической архитектуры](/Exc1/README.md)  
-- [Динамическое масштабирование контейнеров](/Exc2/README.md)  
-- [Переход на Event-Driven архитектуру](/Exc3/README.md)
-- [Проектирование продажи ОСАГО](/Exc4/README.md)
-- [Проектирование GraphQL API](/Exc5/README.md)
-- [Настройка Rate Limiting](/Exc6/README.md)
+- [Проектирование технологической архитектуры](/Task1/readme.md)  
+- [Динамическое масштабирование контейнеров](/Task2/readme.md)  
+- [Переход на Event-Driven архитектуру](/Task3/readme.md)
+- [Проектирование продажи ОСАГО](/Task4/readme.md)
+- [Проектирование GraphQL API](/Task5/client-info.graphql)
+- [Настройка Rate Limiting](/Task6/nginx.conf)
